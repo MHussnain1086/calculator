@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<link rel="shortcut icon"  href="logo1.jpg">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	 <script> 
+         function dis(val) 
+         { 
+             document.getElementById("result").value+=val 
+         } 
+           
+         
+         function solve() 
+         { 
+             let x = document.getElementById("result").value 
+             let y = eval(x) 
+             document.getElementById("result").value = y 
+         } 
+           
+        
+         function clr() 
+         { 
+             document.getElementById("result").value = "" 
+         } 
+      </script> 
+	
+</head>
+<body  style="background-image:url(download.jpg);" >
+
+<div style="margin-top: 90px;    margin-left: 500px;">
+		<h2 style="color:grey; margin-left: 90px;">Calculator</h2>
+	<div style="width: 250px;  height: 250px;  border: 2px solid grey; background-color:white;">
+		<form  name="myform">
+		<div >
+
+			<input type="" name=""  id="result" disabled   style="width:220px;  height: 40px;  border: 2px ridge grey;  margin-left: 12px; margin-top: 13px; " >
+			
+		</div>
+		<div  style="margin-top: 7px; margin-left: 13px;  ">
+			<table>
+				
+		<td ><b><input  class="cal" type="button" name=""  onclick="clr( )"value="C/CE"    id="clear"></b></td>
+				<td><input  class="cal" type="button" name="" onclick="clr('')" value="OFF"></td>
+				<td><input  class="cal" type="button" name="" onclick="dis('.')" value="."></td>
+				
+			
+
+
+				</table>
+				
+				<table>
+		<td><input  class="cal" type="button" name="" onclick="dis('7')" value="7"></td>
+				<td><input class="cal" type="button" name="" onclick="dis('8')" value="8"></td>
+				<td><input  class="cal" type="button" name=""onclick="dis('9')" value="9"></td>
+				<td><input  class="cal" type="button" name="" onclick="dis('/')"value="/"></td>
+
+
+
+				</table>
+				<table>
+		<td><input  class="cal" type="button" name="" onclick="dis('4')" value="4"></td>
+				<td><input class="cal" type="button" name="" onclick="dis('5')" value="5"></td>
+				<td><input  class="cal" type="button" name="" onclick="dis('6')" value="6"></td>
+				<td><input  class="cal" type="button" name="" onclick="dis('*')" value="*"></td>
+				
+
+				</table>
+				<table>
+		<td><input  class="cal" type="button" name="" onclick="dis('1')" value="1"></td>
+				<td><input class="cal" type="button" name="" onclick="dis('2')" value="2"></td>
+				<td><input  class="cal" type="button" name="" onclick="dis('3')" value="3"></td>
+				<td><input  class="cal" type="button" name=""onclick="dis('-')" value="-"></td>
+				
+
+
+				</table>
+				<table>
+		<td><input  class="cal" type="button" name="" onclick="dis('0')" value="0"  id="clear"></td>
+			
+				<td><input  class="cal" type="button" name="" onclick="solve()"  value="="></td>
+				<td><input  class="cal" type="button" name="" onclick="dis('+')" value="+"></td>
+				
+				
+				
+				
+
+
+				</table>
+		
+		
+
+
+
+
+	</div>
+	</div>
+	</div>
+</center>
+</form>
+
+
+
+</body>
+</html>

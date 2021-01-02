@@ -1,0 +1,25 @@
+ body { 
+     background-color: rgba(0, 0, 0, 0.863); 
+}  
+ #pad{
+     background-color:white;
+     width: 400px;
+     height: 80px;
+     font-size: 70px;
+     margin-top: 60px;
+ }
+ #azul{
+     margin-left:480px ;
+     padding: 10px 30px 10px 30px;
+     font-size: 50px;
+ }
+ #azu{
+       padding:10px 40px 10px 40px ;  
+     font-size: 50px;
+     margin-left: -15px;
+ }
+ #az{
+     padding: 70px 30px 70px 30px;
+     font-size: 50px;
+     margin-left: -28px;
+ }
